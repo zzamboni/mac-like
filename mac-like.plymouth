@@ -1,0 +1,62 @@
+[Plymouth Theme]
+Name=macOS Boot
+Description=Minimal macOS-like boot splash
+ModuleName=two-step
+
+[two-step]
+ScaleBackgroundImage=false
+ImageDir=/usr/share/plymouth/themes/mac-like
+BackgroundStartColor=0x000000
+BackgroundEndColor=0x000000
+WatermarkHorizontalAlignment=0.5
+WatermarkVerticalAlignment=0.5
+HorizontalAlignment=0.5
+VerticalAlignment=0.55
+ProgressBarHorizontalAlignment=0.5
+ProgressBarVerticalAlignment=0.92
+ProgressBarHeight=5
+ProgressBarWidth=200
+ProgressBarBackgroundColor=0x606060
+ProgressBarForegroundColor=0xffffff
+MessageBelowAnimation=true
+TitleVerticalAlignment=0.8
+
+[boot-up]
+UseProgressBar=true
+UseAnimation=false
+
+[shutdown]
+UseProgressBar=true
+UseAnimation=false
+
+[reboot]
+UseProgressBar=true
+UseAnimation=false
+
+[updates]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Installing Updates...
+SubTitle=Do not turn off your computer
+
+[system-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Upgrading System...
+SubTitle=Do not turn off your computer
+
+[firmware-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Upgrading Firmware...
+SubTitle=Do not turn off your computer
+
+[system-reset]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Resetting System...
+SubTitle=Do not turn off your computer
