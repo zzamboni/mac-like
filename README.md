@@ -7,11 +7,11 @@ logo in the middle and progress bar near the bottom of the screen.
 
 Regular boot screen (showing Ubuntu logo from [BsxDarkFenceLight1](https://github.com/blackosx/BsxDarkFenceLight1)):
 
-<img src="/home/diego/Personal/devel/plymouth-themes/mac-like/screenshots/screenshot-boot.png" alt="screenshot-boot" style="zoom:50%;" />
+<img src="screenshots/screenshot-boot.png" alt="screenshot-boot" style="zoom:50%;" />
 
 Boot screen during updates:
 
-<img src="/home/diego/Personal/devel/plymouth-themes/mac-like/screenshots/screenshot-updates.png" alt="screenshot-updates" style="zoom:50%;" />
+<img src="screenshots/screenshot-updates.png" alt="screenshot-updates" style="zoom:50%;" />
 
 ## How to use
 
